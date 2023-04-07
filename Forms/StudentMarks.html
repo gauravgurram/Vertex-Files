@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Data</title>
+    <style>
+        .main{
+            border-style: solid;
+            border-color:black;
+            margin: auto;
+            width:15%;
+            height:80%;
+            text-align: center;
+        }
+
+        input[type=text]{
+            width:auto;
+            height: auto;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action ="studentmarks.php">
+        <div class="main">
+            <h1>Student Marks Data</h1>
+            <input type="text" name ="eng" placeholder="Enter English Marks"><br><br>
+            <input type="text" name ="geog" placeholder="Enter Geography Marks"><br><br>
+            <input type="text" name ="sci" placeholder="Enter Science Marks"><br><br>
+            <input type="text" name ="maths" placeholder="Enter Maths Marks"><br><br>
+            <input type="text" name ="hist" placeholder="Enter History Marks"><br><br>
+            <input type="text" name ="pt" placeholder="Enter PT Marks"><br><br>
+            <input type="submit" name ="submit" value="GENERATE MARKSHEET   "><br><br><br>
+        </div>
+    </form>
+</body>
+</html>
