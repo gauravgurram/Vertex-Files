@@ -15,7 +15,7 @@
 </body>
 </html>
 <?php
-$files = array_filter($_FILES['upload']['name']); //Use something similar before processing files.
+$files = array_filter($_FILES['upload']['name']); //Use something similar before processing and files.
 // Count the number of uploaded files in array
 $total_count = count($_FILES['upload']['name']);
 // Loop through every file
